@@ -12,6 +12,7 @@ use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Validator\Constraints\Length;
 
+
 class LoginType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
@@ -43,6 +44,8 @@ class LoginType extends AbstractType
                 ])
             ]
         ])
+
+
         ->add('submit', SubmitType::class)
         ;
     }

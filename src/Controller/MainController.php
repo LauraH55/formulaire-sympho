@@ -35,7 +35,7 @@ class MainController extends AbstractController
             $loginData = $form->getData();
 
             // Fait quelque chose => se connecter
-            dd($loginData);
+            //dd($loginData);
 
             // On redirige vers ....
             // return $this->redirectToRoute(...)
